@@ -11,7 +11,7 @@ sections:
   path: www/content/posts
   label: posts
   create: all
-  match: "**/*.mdx"
+  match: "**/*"
   new_doc_ext: mdx
 upload_dir: www/static
 public_path: ''
