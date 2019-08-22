@@ -4,15 +4,15 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: www/content/posts
+  label: Posts
+  create: all
+  match: "**/*"
+  new_doc_ext: ".mdx"
 - type: document
   path: www/content/authors/authors.yml
   label: Authors
-- type: directory
-  path: www/content/posts
-  label: posts
-  create: all
-  match: "**/*"
-  new_doc_ext: mdx
 upload_dir: www/static
 public_path: ''
 front_matter_path: ''
