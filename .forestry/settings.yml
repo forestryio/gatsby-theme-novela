@@ -7,13 +7,12 @@ sections:
 - type: document
   path: www/content/authors/authors.yml
   label: Authors
-  match: "**/*"
 - type: directory
   path: www/content/posts
   label: posts
   create: all
   match: "**/*.mdx"
-  new_doc_ext: ".mdx"
+  new_doc_ext: mdx
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
